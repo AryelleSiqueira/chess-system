@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dab9dba3-8d56-4144-97ce-9c0ef1fdc0ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boardgame/BoardException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,30 +72,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1234" y="-41" key="#com.intellij.ide.util.MemberChooser" timestamp="1586186591595">
+    <state x="-1234" y="-41" key="#com.intellij.ide.util.MemberChooser" timestamp="1586189209398">
       <screen x="-1920" y="-182" width="1920" height="1080" />
     </state>
-    <state x="-1234" y="-41" key="#com.intellij.ide.util.MemberChooser/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586186591595" />
+    <state x="-1234" y="-41" key="#com.intellij.ide.util.MemberChooser/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586189209398" />
     <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1586122248943" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1586187981351">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1586191654287">
       <screen x="-1920" y="-182" width="1920" height="1080" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586187981351" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586191654287" />
     <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586122621199" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1586187981351">
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1586191654287">
       <screen x="-1920" y="-182" width="1920" height="1080" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586187981351" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586191654287" />
     <state width="1323" height="169" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586122621199" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1586187981351">
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1586191654287">
       <screen x="-1920" y="-182" width="1920" height="1080" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586187981351" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586191654287" />
     <state width="1323" height="169" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586122621199" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1586187981351">
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1586191654287">
       <screen x="-1920" y="-182" width="1920" height="1080" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586187981351" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/-1920.-182.1920.1080/0.0.1366.768@-1920.-182.1920.1080" timestamp="1586191654287" />
     <state width="1323" height="169" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586122621199" />
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1586185788185">
       <screen x="0" y="0" width="1366" height="768" />
